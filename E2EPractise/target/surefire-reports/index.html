@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\User\eclipse-workspace\E2EPractise\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">5 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods,   12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Academy.E2EPractise.HomePage" class="method navigator-link" hash-for-method="basepageNavigation(test22201@test.com, 12389588)">basepageNavigation(test22201@test.com, 12389588)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Academy.E2EPractise.contactUsFlow" class="method navigator-link" hash-for-method="contactUSFlw">contactUSFlw</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Academy.E2EPractise.HomePage" class="method navigator-link" hash-for-method="dressesLinks">dressesLinks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Academy.E2EPractise.forgotPassword" class="method navigator-link" hash-for-method="fpassword2">fpassword2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Academy.E2EPractise.forgotPassword" class="method navigator-link" hash-for-method="newsflow">newsflow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Academy.E2EPractise.HomePage" class="method navigator-link" hash-for-method="newsletFlow">newsletFlow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Academy.E2EPractise.Registration" class="method navigator-link" hash-for-method="registrationFlow(test2342@2145.com, FirstNameDetails, LastNameDetails, 123456, FirstNameDetails1, LastNameDetails1, C...)">registrationFlow(test2342@2145.com, FirstNameDetails, LastNameDetails, 123456, FirstNameDetails1, LastNameDetails1, C...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Academy.E2EPractise.HomePage" class="method navigator-link" hash-for-method="searchFlow">searchFlow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Academy.E2EPractise.HomePage" class="method navigator-link" hash-for-method="socialMediaLinks">socialMediaLinks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Academy.E2EPractise.HomePage" class="method navigator-link" hash-for-method="tShirtFlow">tShirtFlow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Academy.E2EPractise.forgotPassword" class="method navigator-link" hash-for-method="tsearch">tsearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Academy.E2EPractise.contactUsFlow" class="method navigator-link" hash-for-method="validateTitle">validateTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Academy.E2EPractise.Registration</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="registrationFlow(test2342@2145.com, FirstNameDetails, LastNameDetails, 123456, FirstNameDetails1, LastNameDetails1, C...)">
+                  </a> <!-- registrationFlow(test2342@2145.com, FirstNameDetails, LastNameDetails, 123456, FirstNameDetails1, LastNameDetails1, C...) -->
+                  <span class="method-name">registrationFlow</span>
+                  <span class="parameters">(test2342@2145.com, FirstNameDetails, LastNameDetails, 123456, FirstNameDetails1, LastNameDetails1, CompanyDetails1, Address1 Details, Address2 Details, City Details, ZipCode Details, AdditionalInformation Details, 25988866, Alias Details)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Academy.E2EPractise.HomePage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="basepageNavigation(test22201@test.com, 12389588)">
+                  </a> <!-- basepageNavigation(test22201@test.com, 12389588) -->
+                  <span class="method-name">basepageNavigation</span>
+                  <span class="parameters">(test22201@test.com, 12389588)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dressesLinks">
+                  </a> <!-- dressesLinks -->
+                  <span class="method-name">dressesLinks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="newsletFlow">
+                  </a> <!-- newsletFlow -->
+                  <span class="method-name">newsletFlow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchFlow">
+                  </a> <!-- searchFlow -->
+                  <span class="method-name">searchFlow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="socialMediaLinks">
+                  </a> <!-- socialMediaLinks -->
+                  <span class="method-name">socialMediaLinks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tShirtFlow">
+                  </a> <!-- tShirtFlow -->
+                  <span class="method-name">tShirtFlow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Academy.E2EPractise.contactUsFlow</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="contactUSFlw">
+                  </a> <!-- contactUSFlw -->
+                  <span class="method-name">contactUSFlw</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateTitle">
+                  </a> <!-- validateTitle -->
+                  <span class="method-name">validateTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Academy.E2EPractise.forgotPassword</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="fpassword2">
+                  </a> <!-- fpassword2 -->
+                  <span class="method-name">fpassword2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="newsflow">
+                  </a> <!-- newsflow -->
+                  <span class="method-name">newsflow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tsearch">
+                  </a> <!-- tsearch -->
+                  <span class="method-name">tsearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\User\eclipse-workspace\E2EPractise\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite parallel=&quot;none&quot; name=&quot;Suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;Academy.E2EPractise.Listeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Login Flow&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Academy.E2EPractise.HomePage&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login Flow --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Registration Flow&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Academy.E2EPractise.Registration&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Registration Flow --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;forgotPassword &quot;&gt;
+  &lt;/test&gt; &lt;!-- forgotPassword  --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;forgotPassword&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Academy.E2EPractise.forgotPassword&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- forgotPassword --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;contactUsFlow&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Academy.E2EPractise.contactUsFlow&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- contactUsFlow --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Login Flow (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Registration Flow (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">forgotPassword  (0 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">forgotPassword (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">contactUsFlow (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'registrationFlow')
+data.setCell(0, 2, 'Academy.E2EPractise.Registration')
+data.setCell(0, 3, 8927);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'dressesLinks')
+data.setCell(1, 2, 'Academy.E2EPractise.HomePage')
+data.setCell(1, 3, 8070);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'newsflow')
+data.setCell(2, 2, 'Academy.E2EPractise.forgotPassword')
+data.setCell(2, 3, 5792);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'newsletFlow')
+data.setCell(3, 2, 'Academy.E2EPractise.HomePage')
+data.setCell(3, 3, 5285);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'contactUSFlw')
+data.setCell(4, 2, 'Academy.E2EPractise.contactUsFlow')
+data.setCell(4, 3, 4770);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'searchFlow')
+data.setCell(5, 2, 'Academy.E2EPractise.HomePage')
+data.setCell(5, 3, 3761);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'tShirtFlow')
+data.setCell(6, 2, 'Academy.E2EPractise.HomePage')
+data.setCell(6, 3, 3460);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'tsearch')
+data.setCell(7, 2, 'Academy.E2EPractise.forgotPassword')
+data.setCell(7, 3, 2371);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'fpassword2')
+data.setCell(8, 2, 'Academy.E2EPractise.forgotPassword')
+data.setCell(8, 3, 2126);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'basepageNavigation')
+data.setCell(9, 2, 'Academy.E2EPractise.HomePage')
+data.setCell(9, 3, 1919);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'socialMediaLinks')
+data.setCell(10, 2, 'Academy.E2EPractise.HomePage')
+data.setCell(10, 3, 445);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'validateTitle')
+data.setCell(11, 2, 'Academy.E2EPractise.contactUsFlow')
+data.setCell(11, 3, 27);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 46 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Academy.E2EPractise.HomePage</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">basepageNavigation(test22201@test.com, 12389588)</span>
+                <span class="method-start">7018 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dressesLinks</span>
+                <span class="method-start">8946 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">newsletFlow</span>
+                <span class="method-start">17016 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchFlow</span>
+                <span class="method-start">22302 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">socialMediaLinks</span>
+                <span class="method-start">26063 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tShirtFlow</span>
+                <span class="method-start">26509 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">29970 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Academy.E2EPractise.Registration</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">getURL</span>
+                <span class="method-start">33698 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">registrationFlow(test2342@2145.com, FirstNameDetails, LastNameDetails, 123456, FirstNameDetails1, LastNameDetails1, C...)</span>
+                <span class="method-start">48428 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">57355 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Academy.E2EPractise.forgotPassword</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">57687 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">fpassword2</span>
+                <span class="method-start">69093 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">newsflow</span>
+                <span class="method-start">71219 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tsearch</span>
+                <span class="method-start">77011 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">79383 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Academy.E2EPractise.contactUsFlow</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">getURL</span>
+                <span class="method-start">79682 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">contactUSFlw</span>
+                <span class="method-start">87671 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateTitle</span>
+                <span class="method-start">92441 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">92468 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

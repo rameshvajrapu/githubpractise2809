@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite"> 
+<listeners>
+<listener class-name= "Academy.E2EPractise.Listeners"/>
+</listeners>
+  
+   <test thread-count="5" name="Registration Flow">
+    <classes>
+      <class name="Academy.E2EPractise.Registration"/>
+       </classes>
+    </test> <!-- Test -->
+  
+    
+  <test thread-count="5" name="ForgotPassword">
+    <classes>
+      <class name="Academy.E2EPractise.FPassword"/>
+       </classes>
+       
+    </test> <!-- Test -->
+    <test thread-count="5" name="ContactUs Flow">
+    <classes>
+      <class name="Academy.E2EPractise.ContactUsFlow"/>
+       </classes>
+       
+    </test> <!-- Test -->
+    
+   
+</suite> <!-- Suite -->

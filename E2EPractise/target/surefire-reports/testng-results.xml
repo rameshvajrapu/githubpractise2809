@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-28T16:50:18Z" name="Suite" finished-at="2021-04-28T16:51:51Z" duration-ms="92534">
+    <groups>
+    </groups>
+    <test started-at="2021-04-28T16:50:18Z" name="Login Flow" finished-at="2021-04-28T16:50:48Z" duration-ms="29995">
+      <class name="Academy.E2EPractise.HomePage">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Academy.E2EPractise.HomePage@f713686]" started-at="2021-04-28T22:20:18Z" name="initialize" finished-at="2021-04-28T22:20:25Z" duration-ms="7009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basepageNavigation(java.lang.String, java.lang.String)[pri:0, instance:Academy.E2EPractise.HomePage@f713686]" started-at="2021-04-28T22:20:25Z" name="basepageNavigation" data-provider="getData" finished-at="2021-04-28T22:20:27Z" duration-ms="1919" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test22201@test.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12389588]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepageNavigation -->
+        <test-method signature="dressesLinks()[pri:0, instance:Academy.E2EPractise.HomePage@f713686]" started-at="2021-04-28T22:20:27Z" name="dressesLinks" finished-at="2021-04-28T22:20:35Z" duration-ms="8070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dressesLinks -->
+        <test-method signature="newsletFlow()[pri:0, instance:Academy.E2EPractise.HomePage@f713686]" started-at="2021-04-28T22:20:35Z" name="newsletFlow" finished-at="2021-04-28T22:20:41Z" duration-ms="5285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newsletFlow -->
+        <test-method signature="searchFlow()[pri:0, instance:Academy.E2EPractise.HomePage@f713686]" started-at="2021-04-28T22:20:41Z" name="searchFlow" finished-at="2021-04-28T22:20:44Z" duration-ms="3761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFlow -->
+        <test-method signature="socialMediaLinks()[pri:0, instance:Academy.E2EPractise.HomePage@f713686]" started-at="2021-04-28T22:20:44Z" name="socialMediaLinks" finished-at="2021-04-28T22:20:45Z" duration-ms="445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- socialMediaLinks -->
+        <test-method signature="tShirtFlow()[pri:0, instance:Academy.E2EPractise.HomePage@f713686]" started-at="2021-04-28T22:20:45Z" name="tShirtFlow" finished-at="2021-04-28T22:20:48Z" duration-ms="3460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tShirtFlow -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Academy.E2EPractise.HomePage@f713686]" started-at="2021-04-28T22:20:48Z" name="teardown" finished-at="2021-04-28T22:20:48Z" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.E2EPractise.HomePage -->
+    </test> <!-- Login Flow -->
+    <test started-at="2021-04-28T16:50:52Z" name="Registration Flow" finished-at="2021-04-28T16:51:16Z" duration-ms="23855">
+      <class name="Academy.E2EPractise.Registration">
+        <test-method is-config="true" signature="getURL()[pri:0, instance:Academy.E2EPractise.Registration@50305a]" started-at="2021-04-28T22:20:52Z" name="getURL" finished-at="2021-04-28T22:21:07Z" duration-ms="14730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getURL -->
+        <test-method signature="registrationFlow(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.E2EPractise.Registration@50305a]" started-at="2021-04-28T22:21:07Z" name="registrationFlow" data-provider="getData1" finished-at="2021-04-28T22:21:16Z" duration-ms="8927" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test2342@2145.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FirstNameDetails]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[LastNameDetails]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[FirstNameDetails1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[LastNameDetails1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[CompanyDetails1]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address1 Details]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Address2 Details]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[City Details]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[ZipCode Details]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[AdditionalInformation Details]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[25988866]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Alias Details]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationFlow -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Academy.E2EPractise.Registration@50305a]" started-at="2021-04-28T22:21:16Z" name="teardown" finished-at="2021-04-28T22:21:16Z" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.E2EPractise.Registration -->
+    </test> <!-- Registration Flow -->
+    <test started-at="2021-04-28T16:51:16Z" name="forgotPassword " finished-at="2021-04-28T16:51:16Z" duration-ms="3">
+    </test> <!-- forgotPassword  -->
+    <test started-at="2021-04-28T16:51:16Z" name="forgotPassword" finished-at="2021-04-28T16:51:38Z" duration-ms="21882">
+      <class name="Academy.E2EPractise.forgotPassword">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Academy.E2EPractise.forgotPassword@702ed190]" started-at="2021-04-28T22:21:16Z" name="initialize" finished-at="2021-04-28T22:21:27Z" duration-ms="11405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="fpassword2()[pri:0, instance:Academy.E2EPractise.forgotPassword@702ed190]" started-at="2021-04-28T22:21:27Z" name="fpassword2" finished-at="2021-04-28T22:21:29Z" duration-ms="2126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fpassword2 -->
+        <test-method signature="newsflow()[pri:0, instance:Academy.E2EPractise.forgotPassword@702ed190]" started-at="2021-04-28T22:21:29Z" name="newsflow" finished-at="2021-04-28T22:21:35Z" duration-ms="5792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newsflow -->
+        <test-method signature="tsearch()[pri:0, instance:Academy.E2EPractise.forgotPassword@702ed190]" started-at="2021-04-28T22:21:35Z" name="tsearch" finished-at="2021-04-28T22:21:38Z" duration-ms="2371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tsearch -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Academy.E2EPractise.forgotPassword@702ed190]" started-at="2021-04-28T22:21:38Z" name="teardown" finished-at="2021-04-28T22:21:38Z" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.E2EPractise.forgotPassword -->
+    </test> <!-- forgotPassword -->
+    <test started-at="2021-04-28T16:51:38Z" name="contactUsFlow" finished-at="2021-04-28T16:51:51Z" duration-ms="12850">
+      <class name="Academy.E2EPractise.contactUsFlow">
+        <test-method is-config="true" signature="getURL()[pri:0, instance:Academy.E2EPractise.contactUsFlow@42a9a63e]" started-at="2021-04-28T22:21:38Z" name="getURL" finished-at="2021-04-28T22:21:46Z" duration-ms="7989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getURL -->
+        <test-method signature="contactUSFlw()[pri:0, instance:Academy.E2EPractise.contactUsFlow@42a9a63e]" started-at="2021-04-28T22:21:46Z" name="contactUSFlw" finished-at="2021-04-28T22:21:51Z" duration-ms="4770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactUSFlw -->
+        <test-method signature="validateTitle()[pri:0, instance:Academy.E2EPractise.contactUsFlow@42a9a63e]" started-at="2021-04-28T22:21:51Z" name="validateTitle" finished-at="2021-04-28T22:21:51Z" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Academy.E2EPractise.contactUsFlow@42a9a63e]" started-at="2021-04-28T22:21:51Z" name="teardown" finished-at="2021-04-28T22:21:51Z" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.E2EPractise.contactUsFlow -->
+    </test> <!-- contactUsFlow -->
+  </suite> <!-- Suite -->
+</testng-results>

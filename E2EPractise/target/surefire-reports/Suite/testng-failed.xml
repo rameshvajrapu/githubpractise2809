@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]" verbose="0">
+  <listeners>
+    <listener class-name="Academy.E2EPractise.Listeners"/>
+  </listeners>
+  <test parallel="none" name="Login Flow(failed)">
+    <classes>
+      <class name="Academy.E2EPractise.contactUsFlow">
+        <methods>
+          <include name="teardown"/>
+          <include name="getURL"/>
+        </methods>
+      </class> <!-- Academy.E2EPractise.contactUsFlow -->
+      <class name="Academy.E2EPractise.Registration">
+        <methods>
+          <include name="getURL"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.E2EPractise.Registration -->
+      <class name="Academy.E2EPractise.HomePage">
+        <methods>
+          <include name="initialize"/>
+          <include name="dressesLinks"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.E2EPractise.HomePage -->
+      <class name="Academy.E2EPractise.forgotPassword">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Academy.E2EPractise.forgotPassword -->
+    </classes>
+  </test> <!-- Login Flow(failed) -->
+  <test parallel="none" name="forgotPassword(failed)">
+    <classes>
+      <class name="Academy.E2EPractise.contactUsFlow">
+        <methods>
+          <include name="teardown"/>
+          <include name="getURL"/>
+        </methods>
+      </class> <!-- Academy.E2EPractise.contactUsFlow -->
+      <class name="Academy.E2EPractise.Registration">
+        <methods>
+          <include name="getURL"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.E2EPractise.Registration -->
+      <class name="Academy.E2EPractise.HomePage">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.E2EPractise.HomePage -->
+      <class name="Academy.E2EPractise.forgotPassword">
+        <methods>
+          <include name="fpassword2"/>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Academy.E2EPractise.forgotPassword -->
+    </classes>
+  </test> <!-- forgotPassword(failed) -->
+  <test parallel="none" name="contactUsFlow(failed)">
+    <classes>
+      <class name="Academy.E2EPractise.contactUsFlow">
+        <methods>
+          <include name="teardown"/>
+          <include name="contactUSFlw"/>
+          <include name="getURL"/>
+        </methods>
+      </class> <!-- Academy.E2EPractise.contactUsFlow -->
+      <class name="Academy.E2EPractise.Registration">
+        <methods>
+          <include name="getURL"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.E2EPractise.Registration -->
+      <class name="Academy.E2EPractise.HomePage">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.E2EPractise.HomePage -->
+      <class name="Academy.E2EPractise.forgotPassword">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Academy.E2EPractise.forgotPassword -->
+    </classes>
+  </test> <!-- contactUsFlow(failed) -->
+</suite> <!-- Failed suite [Suite] -->
