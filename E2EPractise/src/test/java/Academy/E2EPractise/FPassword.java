@@ -23,7 +23,7 @@ public class FPassword extends base{
 		driver=initializeDriver();
 		log.info("Driver Initiated01092021");
 		driver.get(prop.getProperty("url"));
-		log.info("Navigated to HomePage01092021");
+		log.info("Navigated to HomePage");
 	}
 	
 	@Test
@@ -33,7 +33,7 @@ public class FPassword extends base{
 		 f.fpassword().click();
 		 f.email().sendKeys("test3108@gmail.com");
 		 f.retrievepass().click();
-		 log.info("Forgot Password Flow SuccessFull01092021");
+		 log.info("Forgot Password Flow SuccessFull");
 	}
 	
 	@AfterTest
