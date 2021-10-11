@@ -61,7 +61,7 @@ public class Registration extends base {
 		r.mobilephone().sendKeys(Mobile);
 		r.alias().sendKeys(Alias);
 		r.registerbutton().click();
-		log.info("Registration Flow SuccessFull");
+		log.info("Registration Flow SuccessFull11102021");
 		
 		
 		
