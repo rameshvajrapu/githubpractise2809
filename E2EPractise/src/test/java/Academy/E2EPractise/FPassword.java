@@ -33,7 +33,7 @@ public class FPassword extends base{
 		 f.fpassword().click();
 		 f.email().sendKeys("test3108@gmail.com");
 		 f.retrievepass().click();
-		 log.info("Forgot Password Flow SuccessFull");
+		 log.info("Forgot Password Flow SuccessFull14102021");
 	}
 	
 	@AfterTest
