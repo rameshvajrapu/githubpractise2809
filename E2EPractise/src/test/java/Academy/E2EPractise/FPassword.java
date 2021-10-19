@@ -21,7 +21,7 @@ public class FPassword extends base{
 	public void initialize() throws IOException
 	{
 		driver=initializeDriver();
-		log.info("Driver Initiated01092021");
+		log.info("Driver Initiated");
 		driver.get(prop.getProperty("url"));
 		log.info("Navigated to HomePage");
 	}

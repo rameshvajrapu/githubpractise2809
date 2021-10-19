@@ -33,9 +33,9 @@ public class ContactUsFlow extends base {
 		cu.contactuslnk().click();
 		cu.subjectHeading().click();
 		cu.dropdwnval().click();
-		cu.emailaddress().sendKeys("test123@test2.com");
-		cu.orderref().sendKeys("1432434");
-		cu.msg().sendKeys("message details with reference number #1432434 ");
+		cu.emailaddress().sendKeys("test123@test234.com");
+		cu.orderref().sendKeys("1432532");
+		cu.msg().sendKeys("message details with reference number #143532");
 		cu.sendMessage().click();
 		log.info("ContactUs Flow Successfull");
 
