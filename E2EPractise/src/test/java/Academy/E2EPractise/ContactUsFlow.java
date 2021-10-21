@@ -38,7 +38,7 @@ public class ContactUsFlow extends base {
 		cu.orderref().sendKeys("1432434");
 		cu.msg().sendKeys("message details with reference number #1432434");
 		cu.sendMessage().click();
-		log.info("ContactUs Flow Successfull");
+		log.info("ContactUs Flow Successfull21102021");
 
 =======
 		cu.emailaddress().sendKeys("test235@test22.com");
