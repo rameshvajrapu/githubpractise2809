@@ -3,13 +3,13 @@
 <suite parallel="none" name="Failed suite [Default suite]">
   <test parallel="none" name="Default test(failed)">
     <classes>
-      <class name="Academy.E2EPractise.FPassword">
+      <class name="Academy.E2EPractise.ContactUsFlow">
         <methods>
           <include name="teardown"/>
-          <include name="initialize"/>
-          <include name="fpassflow"/>
+          <include name="contus"/>
+          <include name="getURL"/>
         </methods>
-      </class> <!-- Academy.E2EPractise.FPassword -->
+      </class> <!-- Academy.E2EPractise.ContactUsFlow -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

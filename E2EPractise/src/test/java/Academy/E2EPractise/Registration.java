@@ -61,7 +61,7 @@ public class Registration extends base {
 		r.mobilephone().sendKeys(Mobile);
 		r.alias().sendKeys(Alias);
 		r.registerbutton().click();
-		log.info("Registration Flow SuccessFull");
+		log.info("Registration Flow SuccessFull01092021");
 		
 		
 		
@@ -72,7 +72,7 @@ public class Registration extends base {
 	public Object[][] getData1() 
 	{
 		Object[][] data= new Object[1][15];
-		data[0][0]="test021121@gmail.com";
+		data[0][0]="test02112021first@gmail.com";
 		data[0][1]="Jon";
 		data[0][2]="Snow";
 		data[0][3]="123453";
@@ -82,7 +82,7 @@ public class Registration extends base {
 		data[0][7]="US";
 		data[0][8]="GOT Team";
 		data[0][9]="NH";
-		data[0][10]="5895634";
+		data[0][10]="58956";
 		data[0][11]="GOT Lead Role";
 		data[0][12]="123456789";
 		data[0][13]="9885098850";

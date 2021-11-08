@@ -21,7 +21,7 @@ public class FPassword extends base{
 	public void initialize() throws IOException
 	{
 		driver=initializeDriver();
-		log.info("Driver Initiated");
+		log.info("Driver Initiated01092021");
 		driver.get(prop.getProperty("url"));
 		log.info("Navigated to HomePage");
 	}
@@ -34,8 +34,8 @@ public class FPassword extends base{
 		 f.email().sendKeys("test3108@gmail.com");
 		 f.retrievepass().click();
 		 log.info("Forgot Password Flow SuccessFull");
-               
-
+		 System.out.println("Forgot Password Flow Successfull");
+		 System.out.println("Added a new comment to verify");
 	}
 	
 	@AfterTest

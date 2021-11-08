@@ -4,31 +4,14 @@
   <listeners>
     <listener class-name="Academy.E2EPractise.Listeners"/>
   </listeners>
-  <test parallel="none" name="Registration Flow(failed)">
+  <test parallel="none" name="ForgotPassword(failed)">
     <classes>
-      <class name="Academy.E2EPractise.FPassword">
-        <methods>
-          <include name="teardown"/>
-          <include name="initialize"/>
-        </methods>
-      </class> <!-- Academy.E2EPractise.FPassword -->
       <class name="Academy.E2EPractise.ContactUsFlow">
         <methods>
           <include name="teardown"/>
           <include name="getURL"/>
         </methods>
       </class> <!-- Academy.E2EPractise.ContactUsFlow -->
-      <class name="Academy.E2EPractise.Registration">
-        <methods>
-          <include name="registrationFlow" invocation-numbers="0"/>
-          <include name="getURL"/>
-          <include name="teardown"/>
-        </methods>
-      </class> <!-- Academy.E2EPractise.Registration -->
-    </classes>
-  </test> <!-- Registration Flow(failed) -->
-  <test parallel="none" name="ForgotPassword(failed)">
-    <classes>
       <class name="Academy.E2EPractise.FPassword">
         <methods>
           <include name="teardown"/>
@@ -36,18 +19,47 @@
           <include name="fpassflow"/>
         </methods>
       </class> <!-- Academy.E2EPractise.FPassword -->
-      <class name="Academy.E2EPractise.ContactUsFlow">
-        <methods>
-          <include name="teardown"/>
-          <include name="getURL"/>
-        </methods>
-      </class> <!-- Academy.E2EPractise.ContactUsFlow -->
       <class name="Academy.E2EPractise.Registration">
         <methods>
           <include name="getURL"/>
           <include name="teardown"/>
         </methods>
       </class> <!-- Academy.E2EPractise.Registration -->
+      <class name="Academy.E2EPractise.TermsAndConditionsFlow">
+        <methods>
+          <include name="teardown"/>
+          <include name="getURL"/>
+        </methods>
+      </class> <!-- Academy.E2EPractise.TermsAndConditionsFlow -->
     </classes>
   </test> <!-- ForgotPassword(failed) -->
+  <test parallel="none" name="TermsAndConditions Flow(failed)">
+    <classes>
+      <class name="Academy.E2EPractise.ContactUsFlow">
+        <methods>
+          <include name="teardown"/>
+          <include name="getURL"/>
+        </methods>
+      </class> <!-- Academy.E2EPractise.ContactUsFlow -->
+      <class name="Academy.E2EPractise.FPassword">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Academy.E2EPractise.FPassword -->
+      <class name="Academy.E2EPractise.Registration">
+        <methods>
+          <include name="getURL"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.E2EPractise.Registration -->
+      <class name="Academy.E2EPractise.TermsAndConditionsFlow">
+        <methods>
+          <include name="termscondtionsflw"/>
+          <include name="teardown"/>
+          <include name="getURL"/>
+        </methods>
+      </class> <!-- Academy.E2EPractise.TermsAndConditionsFlow -->
+    </classes>
+  </test> <!-- TermsAndConditions Flow(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -9,6 +9,7 @@ public class Register {
 	
 	private By EmailAddress1=By.cssSelector("input[id='email_create']");
 	private By createAnAccountButton=By.cssSelector("#SubmitCreate > span");
+	//#SubmitCreate > span
 	private By Gender=By.cssSelector("input[id='id_gender1']");
 	private By FirstName=By.cssSelector("input[id='customer_firstname']");
 	private By LastName=By.cssSelector("input[id='customer_lastname']");

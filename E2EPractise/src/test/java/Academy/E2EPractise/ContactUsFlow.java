@@ -22,7 +22,7 @@ public class ContactUsFlow extends base {
 		driver=initializeDriver();
 		log.info("Driver Initiated");
 		driver.get(prop.getProperty("url"));
-		log.info("Navigated to HomePage");
+		log.info("Navigated to HomePage Successfully");
 	}
 	
 	
@@ -31,22 +31,14 @@ public class ContactUsFlow extends base {
 	{
 		ContactUs cu=new ContactUs(driver);
 		cu.contactuslnk().click();
-		cu.subjectHeading().click();
-		cu.dropdwnval().click();
-<<<<<<< HEAD
-		cu.emailaddress().sendKeys("test123@test2.com");
-		cu.orderref().sendKeys("1432434");
-		cu.msg().sendKeys("message details with reference number #1432434");
-		cu.sendMessage().click();
-		log.info("ContactUs Flow Successfull");
-
-=======
-		cu.emailaddress().sendKeys("test235@test22.com");
-		cu.orderref().sendKeys("1435455");
-		cu.msg().sendKeys("message details with reference number #1435455 ");
-		cu.sendMessage().click();
-		log.info("ContactUs Flow successfull");
->>>>>>> dev
+		cu.subjecthead().click();
+		cu.subjectoptn().click();
+		cu.emailadress().sendKeys("test1234@test.com");
+		cu.orderref().sendKeys("#124566788");
+		cu.mesage().sendKeys("Tracking the shipment with respect to the order #124566788" );
+		cu.submitmsg().click();
+		log.info("Contact US Flow successfull");
+		
 	}
 	
 	

@@ -23,6 +23,13 @@
       <class name="Academy.E2EPractise.ContactUsFlow"/>
        </classes>
        
+    
+    </test> <!-- Test -->
+    <test thread-count="5" name="TermsAndConditions Flow">
+    <classes>
+      <class name="Academy.E2EPractise.TermsAndConditionsFlow"/>
+       </classes>
+       
     </test> <!-- Test -->
     
    

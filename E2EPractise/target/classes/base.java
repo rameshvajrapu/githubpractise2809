@@ -21,14 +21,15 @@ public class base {
 	public WebDriver initializeDriver() throws IOException
 	{
 	     prop=new Properties();
-		FileInputStream fis=new FileInputStream("C:\\Users\\User\\eclipse-workspace\\E2EPractise\\src\\main\\java\\resources\\data.properties");
+		FileInputStream fis=new FileInputStream("C:\\Users\\Ramesh\\eclipse-workspace\\E2EPractise\\src\\main\\java\\resources\\data.properties");
+		//C:\Users\Ramesh\eclipse-workspace\E2EPractise
 		
 		prop.load(fis);
 		String browserName=prop.getProperty("browser");
 		
 		if(browserName.equals("chrome"))
 		{
-			System.setProperty("webdriver.chrome.driver","C:\\Program Files\\Drivers\\Drivers\\Chrome Driver 1309\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver","C:\\Program Files\\Drivers\\chromedriver_win32\\chromedriver.exe");
 			 driver=new ChromeDriver();
 		}
 		else if(browserName.equals("firefox"))

@@ -1,63 +1,57 @@
 package pageObjects;
 
-
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class ContactUs {
+	
 	public WebDriver driver;
-
-	private By ContactUsLink=By.cssSelector("#contact-link > a");
-	private By SubjectHeading=By.cssSelector("#id_contact");
-	private By DropDown=By.cssSelector("#id_contact > option:nth-child(2)");
-	private By Email=By.cssSelector("input[id='email']");
-	private By OrderReference=By.cssSelector("input[id='id_order']");
-	private By Message= By.cssSelector("#message");
-	private By SendMessage= By.cssSelector("button[id='submitMessage']");
-	
-	
-	
+	private By contactuslink=By.cssSelector("#contact-link > a");
+	private By subjectheading=By.cssSelector("select[id='id_contact']");
+	private By subjectoption=By.cssSelector("#id_contact > option:nth-child(2)");
+	private By emailaddress=By.cssSelector("input[id='email']");
+	private By orderrefercnce=By.cssSelector("input[id='id_order']");
+	private By Message=By.cssSelector("textarea[id='message']");
+	private By submit=By.cssSelector("button[id='submitMessage']");
 	
 	
 	public ContactUs(WebDriver driver) {
-		this.driver=driver;
+		this.driver=driver;// TODO Auto-generated constructor stub
 	}
 
 	public WebElement contactuslnk()
 	{
-	return driver.findElement(ContactUsLink);
+		return driver.findElement(contactuslink);
+		
 	}
 	
-	public WebElement subjectHeading()
+	public WebElement subjecthead()
 	{
-	return driver.findElement(SubjectHeading);
+		return driver.findElement(subjectheading);
 	}
 	
-	public WebElement dropdwnval()
+	public WebElement subjectoptn()
 	{
-	return driver.findElement(DropDown);
+		return driver.findElement(subjectoption);
 	}
-	
-	public WebElement emailaddress()
+	public WebElement emailadress()
 	{
-		return driver.findElement(Email);
+		return driver.findElement(emailaddress);
 	}
-	
 	public WebElement orderref()
 	{
-		return driver.findElement(OrderReference);
+		return driver.findElement(orderrefercnce);
 	}
 	
-	public WebElement msg()
+	public WebElement mesage()
 	{
 		return driver.findElement(Message);
 	}
-	public WebElement sendMessage()
+	public WebElement submitmsg()
 	{
-		return driver.findElement(SendMessage);
+		return driver.findElement(submit);
 	}
-	
+
 
 }
