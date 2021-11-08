@@ -32,7 +32,7 @@ public class TermsAndConditionsFlow extends base {
 		TermsandConditions tc=new TermsandConditions(driver);
 		tc.termsandconditions().click();
 		System.out.println(tc.rules3txt().getText());
-		log.info("Terms And Conditions Flow Successfull");
+		log.info("Terms And Conditions Flow Successfully");
 	}
 	
 	
