@@ -83,7 +83,7 @@ public class Registration extends base {
 		data[0][8]="GOT Team";
 		data[0][9]="NH";
 		data[0][10]="58956";
-		data[0][11]="GOT Lead Role";
+		data[0][11]="GOT Male Lead Role";
 		data[0][12]="123456789";
 		data[0][13]="9885098850";
 		data[0][14]="Jon Snow";
