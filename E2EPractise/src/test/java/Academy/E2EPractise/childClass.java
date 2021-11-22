@@ -31,8 +31,8 @@ public void ActualBikemechanism()
 		cc.Wheels();
 		
 		int a[][]= new int[2][3];
-		a[0][0]=5;
-		a[0][1]=6;
+		a[0][0]=10;
+		a[0][1]=22;
 		a[0][2]=8;
 		a[1][0]=55;
 		a[1][1]=65;
