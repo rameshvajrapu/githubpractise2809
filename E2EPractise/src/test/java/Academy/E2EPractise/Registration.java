@@ -72,7 +72,7 @@ public class Registration extends base {
 	public Object[][] getData1() 
 	{
 		Object[][] data= new Object[1][15];
-		data[0][0]="test14122021second@gmail.com";
+		data[0][0]="test110122@gmail.com";
 		data[0][1]="Jon";
 		data[0][2]="Snow";
 		data[0][3]="1234532";
@@ -82,7 +82,7 @@ public class Registration extends base {
 		data[0][7]="US";
 		data[0][8]="GOT Team";
 		data[0][9]="NH";
-		data[0][10]="589568";
+		data[0][10]="58956895";
 		data[0][11]="GOT Lead Role";
 		data[0][12]="1234567888";
 		data[0][13]="9885098850";
