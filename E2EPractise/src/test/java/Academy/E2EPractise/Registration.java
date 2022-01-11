@@ -72,10 +72,10 @@ public class Registration extends base {
 	public Object[][] getData1() 
 	{
 		Object[][] data= new Object[1][15];
-		data[0][0]="test14122021@gmail.com";
+		data[0][0]="test110122@gmail.com";
 		data[0][1]="Jon";
 		data[0][2]="Snow";
-		data[0][3]="123489";
+		data[0][3]="12348968";
 		data[0][4]="Jon";
 		data[0][5]="Snow";
 		data[0][6]="GOT Team";
